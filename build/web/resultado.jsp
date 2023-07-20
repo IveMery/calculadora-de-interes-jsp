@@ -23,10 +23,10 @@
                         int interesSimpleEntero = interesSimple.intValue();
                     %>
                     <h2>Datos ingresados</h2>
-                    <p>Capital ingresado: <%= request.getAttribute("capital")%></p>
+                    <p>Capital ingresado:$ <%= request.getAttribute("capital")%></p>
                     <p>Tasa de interés anual: <%= request.getAttribute("tasaAnual")%> %</p>
                     <p>Número de años: <%= request.getAttribute("numeroAnios")%> años</p>
-                    <h3>Cálculo de Interés <br> <%= interesSimpleEntero%></h3>
+                    <h3>Cálculo de Interés <br> $<%= interesSimpleEntero%></h3>
                         <%
                             }
                         %>
