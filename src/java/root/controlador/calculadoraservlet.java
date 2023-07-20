@@ -88,10 +88,9 @@ public class calculadoraservlet extends HttpServlet {
             double interesSimple = calculadora.calcularInteresSimple();
 
             //Guardar el resultado en el atributo de la solicitud
-       
-            request.setAttribute("interesSimple",interesSimple);
-            request.setAttribute("capital",(int) capital);
-            request.setAttribute("tasaAnual",(int) tasaAnual);
+            request.setAttribute("interesSimple", interesSimple);
+            request.setAttribute("capital", (int) capital);
+            request.setAttribute("tasaAnual", (int) tasaAnual);
             request.setAttribute("numeroAnios", numeroAnios);
             //redirigir la solicitud
             request.getRequestDispatcher("resultado.jsp").forward(request, response);

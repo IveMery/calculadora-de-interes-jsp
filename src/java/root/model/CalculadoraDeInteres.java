@@ -2,10 +2,9 @@ package root.model;
 
 public class CalculadoraDeInteres {
 
-   private double capital;
-   private double tasaInteresAnual;
-   private int numeroAnios;
-
+    private double capital;
+    private double tasaInteresAnual;
+    private int numeroAnios;
 
     public double getCapital() {
         return capital;
@@ -33,5 +32,5 @@ public class CalculadoraDeInteres {
 
     public double calcularInteresSimple() {
         return capital * (tasaInteresAnual / 100) * numeroAnios;
-  }
+    }
 }

@@ -14,17 +14,17 @@
     </head>
     <body>
         <nav class="bg-dark text-center text-white p-2"><h1>Calculadora de interés</h1></nav>
-        
+
         <div class="d-flex justify-content-center vh-100 align-items-center">
-        <form action="calculadoraservlet" method="POST">
-            <label>Ingrese el capital:</label>
-            <input type="number" class="form-control" placeholder="100000" name="capital" required /><br>
-            <label>Tasa de Interés:</label>
-            <input type="number" class="form-control" placeholder="10" name="tasaAnual" required/><br>
-           <label>Número de Años:</label>
-           <input type="number" class="form-control" placeholder="3" name="numeroAnios" required/><br>
-            <input class="btn btn-success" type="submit" value="Calcular"/>
-       </form>
+            <form action="calculadoraservlet" method="POST">
+                <label>Ingrese el capital:</label>
+                <input type="number" class="form-control" placeholder="100000" name="capital" required /><br>
+                <label>Tasa de Interés:</label>
+                <input type="number" class="form-control" placeholder="10" name="tasaAnual" required/><br>
+                <label>Número de Años:</label>
+                <input type="number" class="form-control" placeholder="3" name="numeroAnios" required/><br>
+                <input class="btn btn-success" type="submit" value="Calcular"/>
+            </form>
         </div>
     </body>
 </html>
